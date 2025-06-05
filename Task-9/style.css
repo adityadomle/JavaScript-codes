@@ -1,0 +1,17 @@
+/* Progress bar */
+#progressBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 5px;
+  background: #4caf50;
+  width: 0%;
+  z-index: 9999;
+}
+
+/* Page content */
+.content {
+  padding: 20px;
+  line-height: 2;
+  height: 2000px; /* Make page scrollable */
+}
